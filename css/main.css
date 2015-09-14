@@ -97,31 +97,20 @@ body {
 
 .myself { 
 	width: 40%; 
-	background: red;
 	position: absolute;
 	padding-right: 350px;
 	height: auto;
 }
 
 @media only screen and (min-width: 25em) {
-	.myself {
-		height: 50em;
-	}
+
 }
 
 @media only screen and (min-width: 38em) {
-	.myself {
-		background-image: url(../images/myself.png);
-		overflow: hidden;
-		height: 45em;
-	}
+
 }
 
 @media only screen and (min-width: 60em) {
-	.myself {
-		background-image: url(../images/myself.png);
-		background-size: cover;
-		overflow: hidden;
-	}
+
 }
 
