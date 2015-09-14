@@ -63,18 +63,6 @@ ul {
     list-style-type: none;
 }
 
-.icon-li:before {
-    content: url(../images/instagramicon.svg);
-}
-
-.icon-ig:before {
-    content: '\e803';
-}
-
-.icon-tw:before {
-    content: '\e803';
-}
-
 .hide-text {
     white-space: nowrap;
     overflow: hidden;
