@@ -1,0 +1,71 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+	
+  background-color: #07181e; 
+  color: #fff; 	
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.contact {
+    background: white url(../images/meetdani.jpg) no-repeat bottom center;
+    background-size: cover;
+    bottom: 0;
+    width: 100%;
+    position: relative;
+    overflow: auto;
+}
+
+.contact-info {
+    margin: 7rem auto;
+}
+
+.contact-e {
+    text-align: center;
+    width: 100%;
+    font-size: 1.85rem;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.05em;
+    margin: 0 auto;
+}
+
+.socialmedia {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.hide-text {
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    width: 2.26rem;
+}
+
+a {
+    color: inherit;
+}
+
+.link-name {
+    margin-left: 10px;
+}
