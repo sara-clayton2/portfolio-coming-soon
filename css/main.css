@@ -57,7 +57,13 @@ body {
 .socialmedia li {
     display: inline-block;
     margin: 1rem;
+	opacity: 0.5;
 }
+
+.socialmedia li:target { 
+	opacity: 1;
+}
+
 
 ul {
     list-style-type: none;
@@ -77,3 +83,4 @@ a {
 .link-name {
     margin-left: 10px;
 }
+
