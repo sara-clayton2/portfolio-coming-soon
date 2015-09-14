@@ -98,8 +98,6 @@ body {
 .myself { 
 	width: 40%; 
 	position: absolute;
-	padding-right: 350px;
-	height: auto;
 }
 
 @media only screen and (min-width: 25em) {
