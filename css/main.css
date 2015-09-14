@@ -63,6 +63,11 @@ body {
 
 .social-icon {
 	margin: 1rem;
+	width: 60px; 
+	height: auto;
+	display: block;
+    margin-left: auto;
+    margin-right: auto 
 }
 
 .second-header {
