@@ -17,6 +17,32 @@ html {
   box-sizing: inherit;
 }
 
+.skip-links {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	background-color: white; 
+}
+
+.skip-links a {
+	padding: 0.5em 0.75em;
+	position: absolute;
+	top: -3em;
+	background-color: #000;
+	color: #fff;
+	font-size: 1.125em;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.skip-links a:focus {
+  top: 0;
+}
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
+
 body {
   margin: 0;
   padding: 0;
