@@ -96,6 +96,20 @@ body {
  }
 
 .myself { 
-	width: 70%; 
-	height: auto;
+	width: 40%; 
+	position: absolute;
+}
+
+@media only screen and (min-width: 25em) {
+	.myself { 
+	 display:none;
+}
+}
+
+@media only screen and (min-width: 38em) {
+
+}
+
+@media only screen and (min-width: 60em) {
+
 }
