@@ -86,8 +86,8 @@ body {
 	opacity: 0.5;
 }
 
-.socialmedia li:target { 
-	opacity: 1;
+.socialmedia li:hover {
+	opacity:0.6; 
 }
 
 
