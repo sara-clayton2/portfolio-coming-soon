@@ -97,6 +97,7 @@ body {
 
 .myself { 
 	width: 40%; 
+	background: red;
 	position: absolute;
 	padding-right: 350px;
 	height: auto;
