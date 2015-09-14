@@ -54,12 +54,6 @@ body {
     margin: 0 auto;
 }
 
-.billboard {
-	background-color:#00CCCC;
-	padding-left: 350px;
-	height: auto;
-}
-
 .main-header {
   font-size: 4rem;
   line-height: 1.3354;
