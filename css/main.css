@@ -54,7 +54,7 @@ body {
     text-align: center;
 }
 
-.socialmedia ul {
+.socialmedia li {
     display: inline-block;
     margin: 1rem;
 }
