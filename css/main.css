@@ -54,19 +54,6 @@ body {
     margin: 0 auto;
 }
 
-.contact {
-    background: white no-repeat bottom center;
-    background-size: cover;
-    bottom: 0;
-    width: 100%;
-    position: relative;
-    overflow: auto;
-}
-
-.contact-info {
-    margin: 7rem auto;
-}
-
 .contact-e {
     text-align: center;
     width: 100%;
@@ -86,38 +73,6 @@ body {
 .media li {
 	display: inline-block;
 	margin: auto 2rem;
-}
-
-.media li a,
-.media li a:link,
-.media li:visited {
-	display: inline;
-	float: left;
-	height: 40px;
-	width: 50px;
-	margin-right: .5rem;
-	text-align: center;
-	padding-top: .8125rem;
-	
-	color: #fff;
-	
-	-webkit-box-shadow: inset 0px 0px 0px 4px #fff;
-	-moz-box-shadow: inset 0px 0px 0px 4px #fff;
-	-ms-box-shadow: inset 0px 0px 0px 4px #fff;
-	-o-box-shadow: inset 0px 0px 0px 4px #fff;
-	box-shadow: inset 0px 0px 0px 4px #fff;
-}
-
-.media li a:hover,
-.media li a:focus,
-.media li a:active{
-	-webkit-box-shadow: inset 0px 0px 0px 30px #fff;
-	-moz-box-shadow: inset 0px 0px 0px 30px #fff;
-	-ms-box-shadow: inset 0px 0px 0px 30px #fff;
-	-o-box-shadow: inset 0px 0px 0px 30px #fff;
-	box-shadow: inset 0px 0px 0px 30px #fff;
-	
-	color: #4b4b4b;
 }
 
 .hide-text {
