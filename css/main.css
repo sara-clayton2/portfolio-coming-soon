@@ -107,9 +107,15 @@ body {
 }
 
 @media only screen and (min-width: 38em) {
-
+	.myself { 
+	width: 40%; 
+	position: absolute;
+}
 }
 
 @media only screen and (min-width: 60em) {
-
+	.myself { 
+	width: 40%; 
+	position: absolute;
+}
 }
