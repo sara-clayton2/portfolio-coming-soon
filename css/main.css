@@ -108,3 +108,28 @@ a {
     margin-left: 10px;
 }
 
+@media only screen and (min-width: 40em) { 
+
+} 
+
+@media only screen and (min-width: 60em) { 
+	html { 
+		font-size: 110%; 
+	}
+} 
+
+
+@media only screen and (min-width: 90em) { 
+	html { 
+		font-size: 120%;
+	
+	}
+} 
+
+@media only screen and (min-width: 120em) { 
+	html { 
+		font-size: 130%;
+	}
+}
+
+
