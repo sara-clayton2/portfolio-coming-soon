@@ -22,6 +22,12 @@ body {
   padding: 0;
 }
 
+.flex-img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}url(../images/meetdani.jpg)
+
 .contact {
     background: white no-repeat bottom center;
     background-size: cover;
@@ -58,7 +64,7 @@ ul {
 }
 
 .icon-li:before {
-    content: 'instagramicon.svg';
+    content: url(../images/instagramicon.svg)in;
 }
 
 .icon-ig:before {
