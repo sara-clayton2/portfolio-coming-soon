@@ -94,21 +94,6 @@ ul {
     list-style-type: none;
 }
 
-.hide-text {
-    white-space: nowrap;
-    overflow: hidden;
-    display: block;
-    width: 3rem;
-}
-
-a {
-    color: inherit;
-}
-
-.link-name {
-    margin-left: 10px;
-}
-
 @media only screen and (min-width: 40em) { 
 
 } 
