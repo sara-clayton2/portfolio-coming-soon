@@ -54,7 +54,7 @@ body {
     text-align: center;
 }
 
-.socialmedia li {
+.socialmedia ul {
     display: inline-block;
     margin: 1rem;
 }
@@ -67,7 +67,7 @@ ul {
     white-space: nowrap;
     overflow: hidden;
     display: block;
-    width: 2.26rem;
+    width: 2rem;
 }
 
 a {
