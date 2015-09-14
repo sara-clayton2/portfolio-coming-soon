@@ -76,46 +76,53 @@ body {
     margin: 0 auto;
 }
 
-.socialmedia {
-    text-align: center;
+.media {
+	margin: 0;
 	padding: 0;
+	list-style-type: none;
+	text-align: center;
 }
 
-.socialmedia li {
-    display: inline-block;
-    margin: 1rem;
+.media li {
+	display: inline-block;
+	margin: auto 2rem;
 }
 
-.socialmedia li:hover {
-	opacity:0.6; 
-}
-
-ul {
-    list-style-type: none;
-}
-
-@media only screen and (min-width: 40em) { 
-
-} 
-
-@media only screen and (min-width: 60em) { 
-	html { 
-		font-size: 110%; 
-	}
-} 
-
-
-@media only screen and (min-width: 90em) { 
-	html { 
-		font-size: 120%;
+.media li a,
+.media li a:link,
+.media li:visited {
+	display: inline;
+	float: left;
+	height: 40px;
+	width: 50px;
+	margin-right: .5rem;
+	text-align: center;
+	padding-top: .8125rem;
 	
-	}
-} 
-
-@media only screen and (min-width: 120em) { 
-	html { 
-		font-size: 130%;
-	}
+	color: #fff;
+	
+	-webkit-box-shadow: inset 0px 0px 0px 4px #fff;
+	-moz-box-shadow: inset 0px 0px 0px 4px #fff;
+	-ms-box-shadow: inset 0px 0px 0px 4px #fff;
+	-o-box-shadow: inset 0px 0px 0px 4px #fff;
+	box-shadow: inset 0px 0px 0px 4px #fff;
 }
 
+.media li a:hover,
+.media li a:focus,
+.media li a:active{
+	-webkit-box-shadow: inset 0px 0px 0px 30px #fff;
+	-moz-box-shadow: inset 0px 0px 0px 30px #fff;
+	-ms-box-shadow: inset 0px 0px 0px 30px #fff;
+	-o-box-shadow: inset 0px 0px 0px 30px #fff;
+	box-shadow: inset 0px 0px 0px 30px #fff;
+	
+	color: #4b4b4b;
+}
 
+.hide-text {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	display: block;
+}
