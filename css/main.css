@@ -23,7 +23,7 @@ body {
 }
 
 .contact {
-    background: white url(../images/meetdani.jpg) no-repeat bottom center;
+    background: white no-repeat bottom center;
     background-size: cover;
     bottom: 0;
     width: 100%;
@@ -48,8 +48,25 @@ body {
     text-align: center;
 }
 
+.socialmedia li {
+    display: inline-block;
+    margin: 1rem;
+}
+
 ul {
     list-style-type: none;
+}
+
+.icon-li:before {
+    content: 'instagramicon.svg';
+}
+
+.icon-ig:before {
+    content: '\e803';
+}
+
+.icon-tw:before {
+    content: '\e803';
 }
 
 .hide-text {
