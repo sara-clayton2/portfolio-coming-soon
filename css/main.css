@@ -53,7 +53,7 @@ body {
 }
 
 .main-header {
-	color: #000;	
+	color: #0A1337;	
 	font-size: 4rem;
 	line-height: 1.3354;
 	text-align: center;
@@ -71,7 +71,7 @@ body {
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
-
+	color: #896427;
 }
 
  .socialm {
@@ -111,11 +111,12 @@ body {
 
 .data_item {
 	margin: 0 auto;
+	color: #0A1337;
 }
 
 @media only screen and (min-width: 38em){
 	.data_item{
-		border-right: 1px solid #000;
+		border-right: 1px solid #0A1337;
 		float: left;
 		width: 33%;
 		padding: .5em;
@@ -139,7 +140,7 @@ body {
 
 .data_title {
 	margin: 0;
-	color: black;
+	color: #896427;
 	font-size: 0.7901rem;
 	line-height: 1;
 	text-transform: uppercase; 
@@ -148,15 +149,19 @@ body {
 
 .data_info {
 	margin: 0 0 1.5rem;
-	color: #000;
+	color: #0A1337;
 }
 
 .data_info a:active,
 .data_info a:link,
 .data_info a:visited {
-  color: #000;
+  color: #0A1337;
 }
 
 .data_info a:hover{
-  color: grey;
+  color: #896427;
+}
+
+p{ 
+	color:#0A1337;
 }
