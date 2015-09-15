@@ -96,19 +96,64 @@ body {
  }
 
 .myself { 
-	width: 40%; 
-	position: absolute;
+	visibility: hidden;
+	width: 0%;
 }
 
-@media only screen and (min-width: 25em) {
-
+.data {
+  margin: 2rem auto 4rem;
+  overflow: hidden;
+  text-align: center;
 }
 
-@media only screen and (min-width: 38em) {
-
+.data_item {
+  margin: 0 auto;
 }
 
-@media only screen and (min-width: 60em) {
-
+@media only screen and (min-width: 38em){
+	.data_item{
+		border-right: 1px solid #000;
+		float: left;
+		width: 33%;
+		padding: .5em;
+	}
+	
+	.data_item:last-child {
+  		border-right: 0px;
+	}
+	.myself { 
+		width: 100%;
+		visibility: visible;
+	}
 }
 
+@media only screen and (min-width: 50em){
+	.myself { 
+		width: 75%;
+		visibility: visible;
+	}
+}
+
+.data_title {
+  margin: 0;
+  color: black;
+  font-size: 0.7901rem;
+  line-height: 1;
+  text-transform: uppercase; 
+  font-family: 'Roboto', sans-serif;
+}
+
+.data_info {
+  margin: 0 0 1.5rem;
+  color: #000;
+}
+
+.data_info a:active,
+.data_info a:link,
+.data_info a:visited {
+  color: #000;
+}
+
+.data_info a:hover{
+  color: grey;
+}
