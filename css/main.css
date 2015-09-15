@@ -35,16 +35,16 @@ html {
 }
 
 .skip-links a:focus {
-  top: 0;
+	top: 0;
 }
 
 a:hover, a:visited, a:link, a:active {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 body {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 .flex-img {
@@ -54,11 +54,12 @@ body {
 }
 
 .main-header {
-  font-size: 4rem;
-  line-height: 1.3354;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 800;
+	color: #000;	
+	font-size: 4rem;
+	line-height: 1.3354;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 800;
 }
 
 .social-icon {
@@ -68,16 +69,17 @@ body {
 }
 
 .second-header {
- text-align: center;
- font-family: 'Roboto', sans-serif;
- font-weight: 300;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+
 }
 
  .socialm {
- 	text-align: center;
- 	display: block;
-    margin-left: auto;
-    margin-right: auto 
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto 
  }
 
 .fade {
@@ -101,13 +103,13 @@ body {
 }
 
 .data {
-  margin: 2rem auto 4rem;
-  overflow: hidden;
-  text-align: center;
+	margin: 2rem auto 4rem;
+	overflow: hidden;
+	text-align: center;
 }
 
 .data_item {
-  margin: 0 auto;
+	margin: 0 auto;
 }
 
 @media only screen and (min-width: 38em){
@@ -135,17 +137,17 @@ body {
 }
 
 .data_title {
-  margin: 0;
-  color: black;
-  font-size: 0.7901rem;
-  line-height: 1;
-  text-transform: uppercase; 
-  font-family: 'Roboto', sans-serif;
-}
+	margin: 0;
+	color: black;
+	font-size: 0.7901rem;
+	line-height: 1;
+	text-transform: uppercase; 
+	font-family: 'Roboto', sans-serif;
+	}
 
 .data_info {
-  margin: 0 0 1.5rem;
-  color: #000;
+	margin: 0 0 1.5rem;
+	color: #000;
 }
 
 .data_info a:active,
