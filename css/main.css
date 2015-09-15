@@ -35,7 +35,6 @@ html {
 }
 
 .skip-links a:focus {
-	top: 0;
 }
 
 a:hover, a:visited, a:link, a:active {
